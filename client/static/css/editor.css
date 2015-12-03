@@ -1,0 +1,317 @@
+/*
+**
+***
+****
+Name:Stylesheet for Gudie Editor
+CSS Type:Hierarchical CSS
+Company:Clearguide
+Author:Humayon kabir
+Copyright © Clearguide,Inc.All rights reserved.
+****
+***
+**
+*/
+
+body {
+    background-color: #fff;
+}
+#bold {
+    font-weight: bold;
+}
+#wrapper.editor_wrapper {
+    padding-left: 300px;
+}
+#wrapper.editor_wrapper .navbar-toggle {
+    margin-bottom: 0px;
+}
+#wrapper.editor_wrapper .navbar-brand {
+    margin-left: 67px;
+}
+#wrapper.editor_wrapper #sidebar-wrapper {
+    width: 300px;
+}
+#wrapper.editor_wrapper #sidebar-wrapper .sidebar-nav {
+    width: 300px;
+}
+#wrapper.editor_wrapper.toggled-2 #sidebar-wrapper {
+    width: 0px;
+}
+#wrapper.editor_wrapper.toggled-2 #page-content-wrapper {
+    margin-left: -300px;
+}
+.editor_wrapper .sidebar-title{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 0px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    color: #9b9b9b;
+    border-bottom: 1px solid #282e34;
+}
+.guide_section {
+  background-color: #9b9b9b;
+  margin-bottom: 2px;
+  height: 29px;
+}
+.guide_section p {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.editor_wrapper .navbar-inverse .navbar-toggle {
+    border-color: #333333;
+    margin-left: 100px;
+}
+.editor_wrapper .sidebar-nav li{
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 38px;
+  margin-top: 3px;
+}
+#editor-items li.active a,
+#editor-items li a:focus,
+#editor-items li a:hover{
+  background-color: #639162!important;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 300;
+}
+#editor-items > li{
+  background-color: #2e3334;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 2px;
+}
+#editor-items > li a{
+  text-transform: capitalize;
+  padding-right: 11.4px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+#editor-items > li a span.fa-common{
+  width: 1.5em;
+}
+#editor-items .sub_menu a,
+#editor-items .sub_menu.sub_menu2 a {
+    padding-left: 20.5px;
+    margin-top: 2px;
+    border-top: 1px solid #282E34;
+}
+#editor-items .sub_menu.sub_menu2 a {
+    padding-left: 30.5px;
+}
+.editor_wrapper .sidebar-title.sidebar-back > span {
+    margin-left: -10.3px;
+    font-weight: 600;
+}
+/*Editor Tab Styles*/
+
+.editor_contents {
+    background-color: #ececec;
+}
+.editor_contents .headers {
+    margin-bottom: 10px;
+}
+.editor_contents .headers h2 {
+    font-weight: 300;
+    font-family: "Open Sans";
+    font-size: 30px;
+    margin-bottom: 13px;
+}
+.editor_buttons button.btn {
+    min-width: 96.1px;
+    background-color: #9b9b9b;
+    color: #fff;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-size: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    text-transform: capitalize;
+    box-shadow: none;
+    border-color: none;
+    margin-right: 16.9px;
+}
+.editor_buttons button.active,
+.editor_buttons button:hover,
+.editor_buttons button:focus {
+    background-color: #1fa6df;
+}
+.editor_buttons button:nth-child(2):hover {
+    background-color: #808080;
+}
+.guide_tabs_contents {
+    margin-top: 0;
+}
+.editor_dropdowns {
+    margin-right: 46px;
+}
+.editor_dropdowns .bootstrap-select .btn-default {
+    background-color: #d8d8d8;
+    max-width: 128px;
+    max-height: 30px;
+    float: right;
+    font-weight: 300;
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #000;
+    padding-left: 19px;
+    margin-top: 19px;
+    border-radius: 0px;
+}
+.editor_dropdowns .bootstrap-select .btn-default:first-child {
+    margin-top: 29px;
+}
+.editor_dropdowns .bootstrap-select:last-child .btn-default {
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+.editor_dropdowns .bootstrap-select .btn-default:hover,
+.editor_dropdowns .bootstrap-select .btn-default:focus,
+.editor_dropdowns .bootstrap-select.active .btn-default {
+    background-color: #6acd90;
+}
+.editor_dropdowns .bootstrap-select .btn-default:hover .caret,
+.editor_dropdowns .bootstrap-select .btn-default:focus .caret,
+.editor_dropdowns .bootstrap-select.active .btn-default .caret {
+    border-left: 8px solid rgba(0, 0, 0, 0);
+    border-right: 8px solid rgba(0, 0, 0, 0);
+    border-top: 8px dashed #000;
+}
+.editor_dropdowns .btn-group button.btn span.caret {
+    border-left: 8px solid rgba(0, 0, 0, 0);
+    border-right: 8px solid rgba(0, 0, 0, 0);
+    border-top: 8px dashed #7f7a7a;
+    top: 45%;
+}
+.editor_dropdowns .bootstrap-select .dropdown-menu {
+    top: 100%;
+}
+.editor_dropdowns .bootstrap-select:last-child .dropdown-menu {
+    top: 78%;
+}
+.editor_dropdowns .dropdown-menu.open {
+    left: 25%;
+    min-width: 160px;
+}
+.editor_dropdowns .items .dropdown-menu > li > a:focus,
+.editor_dropdowns .dropdown-menu > li > a:hover {
+    background-color: #6acd90;
+}
+/*Footer Styles*/
+
+.editor_wrapper .footer address {
+    margin-top: 0px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    margin-bottom: 0px;
+    font-family: "Open Sans";
+    font-size: 12px;
+    color: #494949;
+}
+.editor_wrapper .editor-footer {
+    background-color: #e6e6e6;
+    margin-top: 108px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+.editor_wrapper .editor-footer {
+    margin-top: 118px;
+}
+}
+/*Editor Styles*/
+
+.main-editor {
+    padding-left: 0;
+    padding-right: 0;
+}
+.main-editor .froala-box {
+    margin-top: 3px!important;
+}
+.main-editor .froala-element.f-basic {
+    padding: 34px 55px 29px;
+}
+.main-editor .froala-view h1 {
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+.main-editor .froala-view p {
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "Open Sans";
+    color: #262626;
+    padding-top: 12px;
+    padding-bottom: 19px;
+}
+.main-editor .froala-wrapper.f-basic {
+    border: 0px;
+}
+.main-editor .froala-editor {
+    border-color: transparent;
+    background-color: #ececec;
+}
+#sticky.stick {
+    position: fixed;
+    top: 0;
+}
+#guide-textarea {
+  height: 400px;
+}
+/*Responsive fixings*/
+/*Big Screens*/
+
+@media only screen and (max-width: 2560px) {
+    .main-editor .froala-wrapper.f-basic {
+        max-width: 40vw;
+    }
+}
+/*FHD Screens*/
+
+@media only screen and (max-width: 1920px) {
+    .main-editor .froala-wrapper.f-basic {
+        max-width: 100%;
+    }
+}
+/*HD Screens*/
+
+@media only screen and (max-width: 1440px) {
+    .bootstrap-select.btn-group .dropdown-toggle .caret {
+        right: 6px;
+    }
+    .editor_dropdowns .dropdown-menu {
+        left: -18%;
+    }
+    .main-editor .froala-wrapper.f-basic {
+        max-width: 100%;
+    }
+}
+/*Medium/Laptops Screens*/
+
+@media only screen and (max-width: 1280px) {
+    .bootstrap-select.btn-group .dropdown-toggle .caret {
+        right: 6px;
+    }
+    .editor_dropdowns .bootstrap-select .btn-default {
+        font-size: 17px;
+        padding-left: 8px;
+    }
+    .editor_dropdowns .dropdown-menu {
+        left: -43%;
+    }
+}
+/*Browser Hack CSS*/
+
+::-webkit-scrollbar {
+    display: none;
+}

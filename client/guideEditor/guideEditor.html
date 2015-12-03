@@ -1,0 +1,135 @@
+<!-- main wrapper -->
+ <div id="editor-page-wrapper" class="editor_wrapper" ng-controller="guideEditorController">
+    <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+
+      <ul class="sidebar-nav nav-pills nav-stacked side-nav" id="menu">
+
+
+        <li>
+          <h3 class="sidebar-title sidebar-back"><a href="workspaces-member.html"><span aria-hidden="true" class="glyphicon glyphicon-share-alt"></span></a><span>back to networking</span></h3>
+        </li>
+        <li class="active">
+          <a href="javascript:void(0);"><span class="fa-stack fa-lg pull-left"><i class="fa fa-pencil-square-o fa-stack-1x "></i></span> guide editor</a>
+        </li>
+        <li>
+          <a href="javascript:void(0);"><span class="fa-stack fa-lg pull-left"><i class="fa fa-picture-o fa-stack-1x "></i></span> media library</a>
+        </li>
+        <li>
+          <a href="javascript:void(0);"><span class="fa-stack fa-lg pull-left"><i class="fa fa-cog fa-stack-1x "></i></span> settings</a>
+        </li>
+        <div class="guide_section">
+          <p>guide sections</p>
+        </div>
+
+
+
+        <div id="editor-items">
+
+         
+
+          <li>
+            <a href="javascript:void(0);">
+            <span class="fa-stack fa-lg pull-left"><i class="fa fa fa-reorder fa-stack-1x "></i></span> 
+            Billing & Invoicing
+            <span class="fa-stack fa-lg pull-right fa-common sign"><i class="fa fa-chevron-circle-right fa-stack-1x "></i></span>       
+            <span class="fa-stack fa-lg pull-right fa-common"><i class="fa fa-plus-circle fa-stack-1x "></i></span>
+            </a>
+
+            <div class="sub_menu">
+              <a href="javascript:void(0);">
+              <span class="fa-stack fa-lg pull-left"><i class="fa fa fa-reorder fa-stack-1x "></i></span> 
+              Account & Contacts
+              <span class="fa-stack fa-lg pull-right fa-common sign"><i class="fa fa-chevron-circle-right fa-stack-1x "></i></span>       
+              <span class="fa-stack fa-lg pull-right fa-common"><i class="fa fa-plus-circle fa-stack-1x "></i></span>
+              </a>                    
+              <div class="sub_menu sub_menu2">
+                <a href="javascript:void(0);">
+                <span class="fa-stack fa-lg pull-left"><i class="fa fa fa-reorder fa-stack-1x "></i></span> 
+                Paperless Billing
+                <span class="fa-stack fa-lg pull-right fa-common sign"><i class="fa fa-chevron-circle-right fa-stack-1x "></i></span>
+                <span class="fa-stack fa-lg pull-right fa-common"><i class="fa fa-plus-circle fa-stack-1x "></i></span>
+                </a>                                          
+              </div>
+            </div>
+          </li>
+          <li>
+          	<a href="javascript:void(0);">
+          	<span class="fa-stack fa-lg pull-left"><i class="fa fa fa-reorder fa-stack-1x "></i></span> 
+          	Billing & Invoicing
+          	<span class="fa-stack fa-lg pull-right fa-common sign"><i class="fa fa-chevron-circle-right fa-stack-1x "></i></span>       
+          	<span class="fa-stack fa-lg pull-right fa-common"><i class="fa fa-plus-circle fa-stack-1x "></i></span>
+          	</a>
+          </li>
+
+        </div>
+
+
+        </ul>
+
+      </div>
+      <!-- /#sidebar-wrapper -->
+      <!-- /.navbar-collapse -->
+    	<div id="page-content-wrapper">
+      	<div id="fix-width" class="container container-fluid container-fluid2">
+        	<div class="row">
+          <!-- Tab panes -->
+         	  <div class="tab-content guide_tabs_contents">
+            <!-- Editior Tab -->
+            	<div role="tabpanel" class="tab-pane active" id="editor">
+              	<div class="col-md-12 editor_contents">
+                	<div class="col-md-10 headers">
+                  <h2>Google Glass Monitoring with Treasure Data</h2>
+                  <p class="editor_buttons">
+                    <button role="button" href="javascript:void(0)" class="btn btn-default active" ng-click="editGuide(edit)">Save</button>                   
+                    <button role="button" href="javascript:void(0)" class="btn btn-default">Close</button>
+                  </p>
+                </div>
+                <div class="col-md-2">
+                  <div class="editor_dropdowns">
+                    <select class="selectpicker">
+                      <option selected="selected">V. 1.0</option>
+                      <option>V. 2.0</option>
+                      <option>V. 3.0</option>
+                    </select>
+                    <select class="selectpicker active">
+                      <option selected="selected">Published</option>
+                      <option>Draft</option>
+                      <option>Archived</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12 main-editor">
+                <textarea froala ng-model="edit.guide" ng-change="updateSidebar(edit)"></textarea>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <div class="row editor-footer">
+          <div class="col-md-12">
+            <div class="footer text-right">
+              <address>Powered by ClearGuide</address>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+  </div>
+  <!-- /#page-wrapper -->
+</div>
+<!-- /#wrapper -->
+
+
+
+
+
+
