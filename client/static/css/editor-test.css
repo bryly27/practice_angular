@@ -3,3 +3,12 @@
 	top: 53px;
 	width: 100%;
 }
+.main-editor .fr-box.fr-basic.fr-top .fr-wrapper {
+  box-shadow: none;
+}
+.main-editor {
+  height: 100%;
+}
+.editor_wrapper .editor-footer {
+  margin-top: 0px;
+}
