@@ -1,0 +1,5 @@
+#editor .toolbar-fixed{
+	position: fixed;
+	top: 53px;
+	width: 100%;
+}

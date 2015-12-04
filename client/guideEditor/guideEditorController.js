@@ -16,3 +16,15 @@ cg.controller('guideEditorController', function($scope){
 
 
 });
+
+// Sticky header
+$(document).scroll(function () {
+    var stickyHeader = $(document).scrollTop(),
+        header = $(".fr-toolbar");
+
+    if (stickyHeader >= 100) {
+        header.addClass('toolbar-fixed');
+    } else {
+        header.removeClass('toolbar-fixed');
+    }
+});
