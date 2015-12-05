@@ -37,7 +37,4 @@ cg.controller('guideEditorController', function($scope){
     });
 
 
-
-
-
 });
