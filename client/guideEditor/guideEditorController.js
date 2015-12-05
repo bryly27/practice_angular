@@ -18,6 +18,7 @@ cg.controller('guideEditorController', function($scope){
 });
 
 // Sticky header
+
 $(document).scroll(function () {
     var stickyHeader = $(document).scrollTop(),
         header = $(".fr-toolbar");
