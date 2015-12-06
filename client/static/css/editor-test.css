@@ -9,3 +9,28 @@
 .main-editor {
   height: 100%;
 }
+.editor_dropdowns .form-control select{
+	min-width: 128px;
+	min-height: 30px;
+}
+.editor_dropdowns .form-control{
+	border-radius: 0;
+	font-family: "Open Sans";
+	font-size: 14px;
+}
+.editor_dropdowns .form-control#lists,.editor_dropdowns option{
+	background-color: #D8D8D8;
+}
+.editor_dropdowns .form-control.active,.editor_dropdowns .form-group select.form-control:hover{
+	background-color: #6ACD90!important;
+}
+.editor_dropdowns select.selectpicker:nth-child(2){
+	margin-top: 8px;
+}
+.editor_dropdowns {
+	margin-top: 29px;
+}
+.editor_dropdowns .form-control:focus,.editor_dropdowns .form-control {
+  box-shadow: none;
+	border: none;
+}

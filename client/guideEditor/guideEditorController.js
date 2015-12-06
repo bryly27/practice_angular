@@ -24,8 +24,6 @@ cg.controller('guideEditorController', function($scope){
     });
 
 
-
-
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
